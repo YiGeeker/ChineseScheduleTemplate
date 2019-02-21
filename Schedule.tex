@@ -1,0 +1,28 @@
+\documentclass{sty/myschedule}
+\usepackage{pdflscape}
+
+\author{YiGeeker}
+
+\begin{document}
+\begin{landscape}
+\begin{schedule}[2017年6月19日---2017年6月25日安排]%
+ \Important{画原理图}{M}{8:30-11:20}
+ \Important{画PCB版}{T,W,Th,F}{8:30-11:20}
+ \Important{画PCB版}{M,T,W,Th,F}{14:00-15:30}
+ \Important{列论文提纲}{M}{15:30-17:20} 
+ \Important{写论文}{T,W,Th,F}{15:30-17:20}
+ \Normal{打羽毛球}{T,Th}{18:00-21:00}
+ \Normal{打羽毛球}{Sa}{14:30-17:20}
+\end{schedule}
+\end{landscape}
+\newpage
+
+\section*{星期一}
+\DaySchedule{%
+ \begin{itemize}
+  \item 画原理图
+  \item 画PCB版
+  \item 列论文提纲
+ \end{itemize}}{%
+ \None}
+\end{document}

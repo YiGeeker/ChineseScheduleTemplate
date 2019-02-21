@@ -1,0 +1,9 @@
+# Exclude everything except what maintained by hand
+/*
+!.gitignore
+!LICENSE
+!README.md
+!/sty
+!/fonts
+!Schedule.tex
+!Schedule.pdf
